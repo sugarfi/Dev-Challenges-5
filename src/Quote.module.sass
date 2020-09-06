@@ -1,0 +1,47 @@
+section
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    width: 40vw
+    margin-top: 50px
+    margin-bottom: 50px
+
+    blockquote
+        border-left: 8px solid #f7df94
+        margin: 0
+        padding-left: 50px
+        max-width: 100%
+        font-style: normal
+        font-weight: 500
+        font-size: 36px
+        line-height: 120%
+
+    div
+        padding: 50px
+        margin-top: 50px
+        width: 100%
+
+        h1, h2
+            margin: 0
+        h1
+            font-weight: bold
+            font-size: 24px
+            line-height: 28px
+            color: #4f4f4f
+        h2
+            font-style: normal
+            font-weight: 500
+            font-size: 14px
+            line-height: 16px
+            color: #828282
+
+        &:hover
+            background-color: #333333
+            cursor: pointer
+
+            h1
+                color: #f2f2f2
+            
+@media (max-width: 900px)
+    section
+        width: 98vw
